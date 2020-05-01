@@ -15,11 +15,15 @@
 
 ## TODO
 
-[x] 实现了对 Asset 内附带图片的检测
-[x] 实现了对 相册 内附带图片的检测
-[x] mobileNet_yolov3 基于 VOC 的初步训练权重
-[ ] mobileNet_yolov3 对 COCO 数据集的训练
-[ ] 对视频的检测
+[x] 实现了对 Asset 内附带图片的检测;
+
+[x] 实现了对 相册 内附带图片的检测;
+
+[x] mobileNet_yolov3 基于 VOC 的初步训练权重;
+
+[ ] mobileNet_yolov3 对 COCO 数据集的训练;
+
+[ ] 对视频的检测;
 
 ## 权重下载
 mobileNet_yolov3.caffemodel:
