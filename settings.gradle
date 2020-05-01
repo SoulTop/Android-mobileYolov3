@@ -1,0 +1,3 @@
+rootProject.name='recognition'
+include ':app'
+include ':opencvLibrary420'

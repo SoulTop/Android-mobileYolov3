@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Vision"
+        android:textAppearance="@style/TextAppearanceMainVisionNlp"/>
+
+<!-- 这些每一个都是一个 list_card.xml -->
+    <com.soultop.recognition.ListCardView
+        android:id="@+id/yolov3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:titleRes="@string/yolov3_title"
+        app:descriptionRes="@string/yolov3_description"
+        app:imageRes="@drawable/ic_image_classification_s"
+        android:elevation="1dp"/>
+
+    <com.soultop.recognition.ListCardView
+        android:id="@+id/yolo_tiny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:titleRes="@string/yolov3_tiny_title"
+        app:descriptionRes="@string/yolov3_tiny_description"
+        app:imageRes="@drawable/ic_image_classification_s"
+        android:elevation="1dp"/>
+
+
+    <com.soultop.recognition.ListCardView
+        android:id="@+id/mobile_yolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:titleRes="@string/mobile_yolov3_title"
+        app:descriptionRes="@string/mobile_yolov3_description"
+        app:imageRes="@drawable/ic_image_classification_s"
+        android:elevation="1dp"/>
+
+</LinearLayout>

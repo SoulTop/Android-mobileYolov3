@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yolo识别</string>
+
+    <string name="yolov3_title">Original yoloV3\nmAP=55.3</string>
+    <string name="yolov3_description">Default pretrained yolov3 model.\nInput is float32 tensor of 1x3x416x416 shape</string>
+
+    <string name="yolov3_tiny_title">Original yoloV3-tiny\nmAP=33.1</string>
+    <string name="yolov3_tiny_description">Default pretrained yolov3-tiny model.\nInput is float32 tensor of 1x3x416x416 shape</string>
+
+    <string name="mobile_yolov3_title">Mobile yoloV3\nmAP=40.1</string>
+    <string name="mobile_yolov3_description">Our trained mobile_yolov3 model.\nInput is float32 tensor of 1x3x416x416 shape</string>
+
+</resources>

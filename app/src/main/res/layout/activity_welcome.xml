@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ActivityContentBase"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg_welcome"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+
+
+    <Button
+        android:id="@+id/bt_skip"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="继续"
+        android:textColor="@android:color/black"
+        android:background="@drawable/bg_skip_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/welcom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Recognition"
+        android:textAppearance="@style/TextAppearanceWelcomeTitle"
+        app:layout_constraintBottom_toTopOf="@+id/welcome_img"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageView
+        android:id="@+id/welcome_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_image_classification_l"
+        app:layout_constraintBottom_toTopOf="@id/bt_skip"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
